@@ -19,10 +19,6 @@ public class UserAuthController {
 
     @PostMapping("/register")
     public ResponseEntity<RegisterResponse> register(@RequestBody RegisterRequest registerRequest) {
-
-//        return ResponseEntity.ok(userService.register(registerRequest));
-//        return new ResponseEntity<>(userService.register(registerRequest),HttpStatus.CREATED);
-
         return ResponseEntity
                 .status(HttpStatus.CREATED)
                 .body(userService.register(registerRequest));
@@ -34,3 +30,8 @@ public class UserAuthController {
     }*/
 
 }
+
+
+
+//        return ResponseEntity.ok(userService.register(registerRequest));
+//        return new ResponseEntity<>(userService.register(registerRequest),HttpStatus.CREATED);
