@@ -24,14 +24,15 @@ public class UserAuthController {
                 .body(userService.register(registerRequest));
 
     }
-    /*@PostMapping("/login")
+
+//        return ResponseEntity.ok(userService.register(registerRequest));
+//        return new ResponseEntity<>(userService.register(registerRequest),HttpStatus.CREATED);
+
+    @PostMapping("/login")
     public String login(@RequestBody RegisterRequest registerUserRequest) {
         return "Login successful for user: " + registerUserRequest.getEmail();
-    }*/
+    }
 
 }
 
 
-
-//        return ResponseEntity.ok(userService.register(registerRequest));
-//        return new ResponseEntity<>(userService.register(registerRequest),HttpStatus.CREATED);
