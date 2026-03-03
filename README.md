@@ -1,1 +1,2 @@
-Wellnex
+Wellnex Health Fitness App
+
