@@ -1,2 +1,2 @@
-Wellnex Health Fitness App
+Wellnex Health Fitness Tracker App
 
